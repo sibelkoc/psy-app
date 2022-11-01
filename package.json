@@ -17,7 +17,9 @@
     "vuex": "^4.0.1"
   },
   "devDependencies": {
-    "@quasar/app": "^3.0.0"
+    "@quasar/app": "^3.0.0",
+    "node-sass": "^7.0.3",
+    "sass-loader": "^13.1.0"
   },
   "browserslist": [
     "last 10 Chrome versions",

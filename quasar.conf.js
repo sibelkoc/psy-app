@@ -6,6 +6,7 @@
 // Configuration for your app
 // https://quasar.dev/quasar-cli/quasar-conf-js
 
+const { QToolbar, QList } = require('quasar');
 const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (ctx) {
@@ -89,7 +90,24 @@ module.exports = configure(function (ctx) {
       // (like functional components as one of the examples),
       // you can manually specify Quasar components/directives to be available everywhere:
       //
-      // components: [],
+      components: [
+        'QLayout',
+        'QHeader',
+        'QDrawer',
+        'QPageContainer',
+        'QPage',
+        'QToolbar',
+        'QBtn',
+        'QIcon',
+        'QList',
+        'QItem',
+        'QItemSection',
+        'QItemLabel',
+        'QFooter',
+        'QTabs',
+        'QTab',
+        'QRouteTab'
+      ],
       // directives: [],
 
       // Quasar plugins
