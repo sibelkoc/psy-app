@@ -33,6 +33,7 @@
 
         <q-item 
         to="/"
+        exact
         clickable>
         <q-item-section avatar>
            <q-icon name="eva-home-outline" />
@@ -45,6 +46,7 @@
 
         <q-item 
         to="/about"
+        exact
         clickable>
         <q-item-section avatar>
            <q-icon name="eva-person-outline" />
@@ -57,6 +59,7 @@
 
         <q-item 
         to="/prices"
+        exact
         clickable>
         <q-item-section avatar>
            <q-icon name="eva-credit-card-outline" />
@@ -69,6 +72,7 @@
 
         <q-item 
         to="/appointment"
+        exact
         clickable>
         <q-item-section avatar>
            <q-icon name="eva-calendar-outline" />
@@ -81,6 +85,7 @@
 
         <q-item 
         to="/contact"
+        exact
         clickable>
         <q-item-section avatar>
            <q-icon name="eva-email-outline" />
@@ -93,6 +98,7 @@
 
         <q-item 
         to="/login"
+        exact
         clickable>
         <q-item-section avatar>
            <q-icon name="eva-log-in-outline" />
