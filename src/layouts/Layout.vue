@@ -2,8 +2,7 @@
   <q-layout view="hHh lpR fFf">
     <q-header elevated>
       <q-toolbar>
-
-
+        <q-toolbar-title class="title">Eva Quare</q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -118,6 +117,14 @@ export default ({
   .q-drawer .q-router-link--exact-active{
   color: white !important ;
 }
+}
+
+.title{
+  justify-content: center;
+  display: flex;
+  font-family: 'cursive' !important;
+  font-size:xx-large;
+  font-weight: 500;
 }
 
 
